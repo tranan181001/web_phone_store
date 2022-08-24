@@ -1,0 +1,128 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    font-family:Verdana;
+    font-size:12px;
+   
+    
+}
+#Container
+{
+    width: 958px;
+    margin:auto;
+    border-left: 1px solid #212020;
+    border-right:1px solid #212020;
+    
+}   
+#Menu
+{
+    height:40px;
+    background-image:url(Image/Menu_bg.jpg);  
+    background-color: #F6F6F6;
+   
+    }
+#Banner
+{
+    height: 43px;   
+    }
+#BreadCrumb
+{
+    height:20px;
+    background-color:#F6F6F6;
+    padding:10px 10px;
+    font-weight:bold;
+ }  
+    
+#BreadCrumb a 
+{
+    text-decoration:none;
+        }
+#Search
+{
+    float:right;
+    }  
+#Sidebar
+{
+    width: 258px;
+    padding:10px 10px;
+    float:left;
+    }
+#Contain
+{
+    width: 659px;
+    float:right;
+    padding:10px 10px;
+    border-left:1px dashed #212020;
+    min-height:400px;
+    }
+.clear
+{
+    clear:both;
+    }
+#Footer
+{
+    text-align:center;
+    height: 11px;
+    background-color: #DBDBDB;
+    padding: 10px 10px;
+    }
+    
+    /* Navigation*/
+    #Menu ul
+    {
+        margin:0;
+        padding:0;
+        }
+    #Navigation li
+    {
+        display:inline;
+        }
+    #Navigation a
+    {
+        display:block;
+        float:left;
+        margin:0;
+        width:100px;
+        height:20px;
+        text-align:center;
+        vertical-align:middle;
+        text-decoration:none;
+        font-weight:bold; 
+        padding:10px 10px;       
+        border-right: 1px solid #DBDBDB;
+        color:Black;
+        
+        background-color:#F6F6F6;
+        }    
+     #Navigation a:hover,  #Navigation a:active, #Navigation a.selected 
+     {
+         color:Blue;
+         }
+         
+     
+    .Product_Image     
+   {
+       width:50%;
+       float:left;
+       }
+   .Product_Name
+   {
+       color: Maroon;
+       font-size:20px;
+       font-weight:bold;
+       }
+ .Product_Price
+   {
+       color: Red;
+       
+       font-weight:bold;
+       }  
+  .ProductBoxDetail
+  {
+      text-align:center;
+     
+      Width:400px;
+      height:200px;
+      margin: 20px 30px;
+      }
